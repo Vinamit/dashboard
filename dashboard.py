@@ -25,7 +25,8 @@ st.markdown(f"<div style='font-family: Arial; font-size: 20px; color: green; mar
 # st.write(today)
 st.header("Dashboard for Customer Advisor")
 
-url_local= 'http://127.0.0.1:5000/'
+# url_local= 'http://127.0.0.1:5000/'
+url_local= 'https://test-flask1-84968da5768b.herokuapp.com/'
 
 # st.sidebar.header("Query Input")
 # ticker = st.sidebar.text_input('Enter your ID', '')
@@ -69,5 +70,6 @@ st.text_area("Info :",'Home-Credit est le fournisseur internationale de crédit 
         ' incontournable depuis 25 ans. Nous sommes présent dans sept pays'
         ' (Chine, Inde, Indonésie, ViêtNam, Kazakhstan,'
         ' République Thèque et Slovaquie).')
+
 
 # streamlit run dashboard.py
