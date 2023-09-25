@@ -5,10 +5,10 @@ import os
 import json
 from PIL import Image
 
-def load_image(img):
-    im =Image.open(os.path.join(img))
-    return im
-st.image(load_image('/home/ninja/Documents/CES-DS_AnalyseGestionGrandesMassesDonnées/Module14_ProjetPersonnel/Mémoire/Home-Credit_2.png'))
+#def load_image(img):
+#    im =Image.open(os.path.join(img))
+#    return im
+# st.image(load_image('/home/ninja/Documents/CES-DS_AnalyseGestionGrandesMassesDonnées/Module14_ProjetPersonnel/Mémoire/Home-Credit_2.png'))
 st.write("### You are welcome,","Vous êtes les bienvenus,", "Gern geschehen,", "Sois bienvenidos" )
 today = dt.date.today()
 now = dt.datetime.now()
