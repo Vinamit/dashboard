@@ -3,16 +3,16 @@ import requests
 import datetime as dt
 import os
 import json
-from PIL import Image
+# from PIL import Image
 
 
 # Image Manipulation
 # @st.cache_resource
-#def load_image(img):
-  #im =Image.open(os.path.join(img))
-  #return im
+# def load_image(img):
+#  im =Image.open(os.path.join(img))
+# return im
 
-#st.image(load_image('/home/ninja/Documents/CES-DS_AnalyseGestionGrandesMassesDonnées/Module14_ProjetPersonnel/Mémoire/Home-Credit_2.png'))
+# st.image(load_image('/home/ninja/Documents/CES-DS_AnalyseGestionGrandesMassesDonnées/Module14_ProjetPersonnel/Mémoire/Home-Credit_2.png'))
 st.write("### You are welcome,","Vous êtes les bienvenus,", "Gern geschehen,", "Sois bienvenidos" )
 today = dt.date.today()
 now = dt.datetime.now()
