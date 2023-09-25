@@ -6,8 +6,8 @@ import json
 from PIL import Image
 
 
-# Image Manipulation
-# @st.cache_resource
+Image Manipulation
+@st.cache_resource
  def load_image(img):
     im =Image.open(os.path.join(img))
     return im
