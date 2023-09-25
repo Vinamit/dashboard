@@ -6,7 +6,11 @@ import json
 from PIL import Image
 
 
-
+# Image Manipulation
+# @st.cache_resource
+# def load_image(img):
+#  im =Image.open(os.path.join(img))
+# return im
 
 # st.image(load_image('/home/ninja/Documents/CES-DS_AnalyseGestionGrandesMassesDonnées/Module14_ProjetPersonnel/Mémoire/Home-Credit_2.png'))
 st.write("### You are welcome,","Vous êtes les bienvenus,", "Gern geschehen,", "Sois bienvenidos" )
@@ -21,8 +25,8 @@ st.markdown(f"<div style='font-family: Arial; font-size: 20px; color: green; mar
 # st.write(today)
 st.header("Dashboard for Customer Advisor")
 
-url_local= 'http://127.0.0.1:5000/'
-# url_local= 'https://test-flask1-84968da5768b.herokuapp.com/'
+# url_local= 'http://127.0.0.1:5000/'
+url_local= 'https://test-flask1-84968da5768b.herokuapp.com/'
 
 # st.sidebar.header("Query Input")
 # ticker = st.sidebar.text_input('Enter your ID', '')
