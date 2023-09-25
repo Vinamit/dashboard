@@ -3,10 +3,12 @@ import requests
 import datetime as dt
 import os
 import json
+from PIL import Image
 
 
 
 
+# st.image(load_image('/home/ninja/Documents/CES-DS_AnalyseGestionGrandesMassesDonnées/Module14_ProjetPersonnel/Mémoire/Home-Credit_2.png'))
 st.write("### You are welcome,","Vous êtes les bienvenus,", "Gern geschehen,", "Sois bienvenidos" )
 today = dt.date.today()
 now = dt.datetime.now()
