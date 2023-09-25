@@ -5,10 +5,7 @@ import os
 import json
 from PIL import Image
 
-
-Image Manipulation
-@st.cache_resource
- def load_image(img):
+def load_image(img):
     im =Image.open(os.path.join(img))
     return im
 st.image(load_image('/home/ninja/Documents/CES-DS_AnalyseGestionGrandesMassesDonnées/Module14_ProjetPersonnel/Mémoire/Home-Credit_2.png'))
