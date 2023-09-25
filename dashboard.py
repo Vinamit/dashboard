@@ -3,7 +3,7 @@ import requests
 import datetime as dt
 import os
 import json
-# from PIL import Image
+from PIL import Image
 
 
 # Image Manipulation
